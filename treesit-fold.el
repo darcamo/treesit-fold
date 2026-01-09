@@ -176,6 +176,7 @@
     (php-ts-mode            . ,(treesit-fold-parsers-php))
     (python-mode            . ,(treesit-fold-parsers-python))
     (python-ts-mode         . ,(treesit-fold-parsers-python))
+    (qml-ts-mode            . ,(treesit-fold-parsers-qml))
     (qss-mode               . ,(treesit-fold-parsers-qss))
     (rjsx-mode              . ,(treesit-fold-parsers-javascript))
     (ron-mode               . ,(treesit-fold-parsers-ron))

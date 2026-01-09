@@ -654,6 +654,11 @@
      . (lambda (node offset)
          (treesit-fold-range-line-comment node offset "#")))))
 
+(defun treesit-fold-parsers-qml ()
+  "Rule set for QML."
+  '((ui_object_initializer  . treesit-fold-range-seq)
+    (comment . treesit-fold-range-c-like-comment)))
+
 (defun treesit-fold-parsers-qss ()
   "Rule set for QSS."
   (append (treesit-fold-parsers-css)))
